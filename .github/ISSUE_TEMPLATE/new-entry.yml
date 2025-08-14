@@ -1,0 +1,80 @@
+name: "➕ Suggest New Entry"
+description: Suggest a new tool, framework, or resource to add to the list.
+title: "[New Entry] "
+labels: ["new-entry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the tool/resource.
+      placeholder: e.g. My Awesome Tool
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the project homepage or repository.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this entry belong to?
+      options:
+        - AI-Enhanced IDEs & Editors
+        - Terminal-Based Coding Agents
+        - VS Code Extensions
+        - Agent Frameworks
+        - MCP Ecosystem
+        - Agent Skills & Extensions
+        - Context Engineering
+        - Vibe Coding Platforms
+        - Agent Security
+        - Agent DevOps & Automation
+        - Benchmarks & Evaluation
+        - Learning Resources
+        - Related Awesome Lists
+        - Other / Not sure
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: One sentence, max 20 words. No promotional language.
+      placeholder: Open-source tool that does X with Y integration.
+    validations:
+      required: true
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing model
+      options:
+        - Free
+        - Freemium
+        - Paid
+        - Enterprise
+        - Open Source
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification sources
+      description: At least 2 independent sources confirming this tool exists and is active.
+      placeholder: |
+        1. https://...
+        2. https://...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Why should this be included?
+      description: Brief explanation of what makes this entry notable or unique.
+    validations:
+      required: false

@@ -1,0 +1,36 @@
+name: "🔗 Broken Link"
+description: Report a broken or outdated link in the list.
+title: "[Broken Link] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: entry-name
+    attributes:
+      label: Entry name
+      description: Name of the entry with the broken link.
+      placeholder: e.g. Aider
+    validations:
+      required: true
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      description: The URL that is broken or outdated.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: correct-url
+    attributes:
+      label: Correct URL (if known)
+      description: The updated or correct URL, if you know it.
+      placeholder: https://...
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other details.
+    validations:
+      required: false

@@ -1,0 +1,25 @@
+name: Lint Awesome List
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'readme.md'
+      - 'contributing.md'
+      - 'code-of-conduct.md'
+  push:
+    branches: [main]
+    paths:
+      - 'readme.md'
+      - 'contributing.md'
+      - 'code-of-conduct.md'
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npx awesome-lint

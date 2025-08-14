@@ -1,0 +1,10 @@
+# Lychee link checker configuration
+# See https://lychee.cli.rs/configuration/
+
+# Exclude URLs known to block automated crawlers (return 403)
+exclude = [
+  "https://reddit\\.com/.*",
+  "https://www\\.reddit\\.com/.*",
+  "https://claude\\.ai.*",
+  "https://academy\\.langchain\\.com.*",
+]

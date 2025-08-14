@@ -1,0 +1,21 @@
+name: Check Links
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.md'
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  linkchecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --config .lychee.toml readme.md contributing.md docs/research.md
+          lycheeVersion: latest
+          fail: true
