@@ -1,6 +1,6 @@
-# Awesome Agentic Development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub stars](https://img.shields.io/github/stars/QDenka/awesome-agentic-development?style=flat&logo=github)](https://github.com/QDenka/awesome-agentic-development/stargazers)
+# Awesome Agentic Development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of tools, frameworks, and resources for agentic software development with coding-focused AI agents.
+> Software development paradigm where AI agents autonomously write, debug, and deploy code.
 
 ## Contents
 
@@ -20,8 +20,6 @@
 - [Benchmarks \& Evaluation](#benchmarks--evaluation)
 - [Learning Resources](#learning-resources)
 - [Related Awesome Lists](#related-awesome-lists)
-
-**Legend:** `Free` `Freemium` `Paid` `Enterprise` `OSS` (Open Source) — see also [LLM Provider Compatibility](docs/llm-providers.md) | [Star Tracker](docs/stars.md).
 
 ## AI-Enhanced IDEs & Editors
 
@@ -238,15 +236,15 @@
 
 ## Related Awesome Lists
 
-- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - General AI agents and automation tools across domains.
-- [awesome-code-agents](https://github.com/sorrycc/awesome-code-agents) - Code agents and assistants in IDEs, browsers, and CLIs.
-- [awesome-code-ai](https://github.com/sourcegraph/awesome-code-ai) - AI coding assistants, completion tools, and related resources.
-- [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) - Vibe coding tools and AI-first app builders.
+- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents#readme) - General AI agents and automation tools across domains.
+- [awesome-code-agents](https://github.com/sorrycc/awesome-code-agents#readme) - Code agents and assistants in IDEs, browsers, and CLIs.
+- [awesome-code-ai](https://github.com/sourcegraph/awesome-code-ai#readme) - AI coding assistants, completion tools, and related resources.
+- [awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding#readme) - Vibe coding tools and AI-first app builders.
 
 ## Contributing
 
 See [contributing.md](contributing.md) for guidelines on adding entries to this list.
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+## Footnotes
 
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+**Legend:** `Free` `Freemium` `Paid` `Enterprise` `OSS` (Open Source) — see also [LLM Provider Compatibility](docs/llm-providers.md) | [Star Tracker](docs/stars.md).
